@@ -1,4 +1,4 @@
-import { IProduct } from "../../models/card.model";
+import { IProduct } from "../../models/card.model.ts";
 
 export const CardComponent = ({
   title,

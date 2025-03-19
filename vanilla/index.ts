@@ -1,4 +1,4 @@
-import {routes} from "../src/router"
+import {routes} from "../src/router.ts"
 
 export const Render = async (path: string): Promise<void> => {
  

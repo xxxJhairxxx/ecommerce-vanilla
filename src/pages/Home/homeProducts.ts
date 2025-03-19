@@ -1,4 +1,4 @@
-import { IProduct } from './../../models/card.model';
+import { IProduct } from './../../models/card.model.ts';
 
 import products from "../../services/products";
 import { CardComponent } from '../../Components/molecules/cardComponent';

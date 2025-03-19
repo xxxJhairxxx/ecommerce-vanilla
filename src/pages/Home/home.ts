@@ -1,4 +1,4 @@
-import HomeProducts from "./homeProducts";
+import HomeProducts from "./homeProducts.ts";
 
 
 const HomePage = async (): Promise<HTMLDivElement> => {
