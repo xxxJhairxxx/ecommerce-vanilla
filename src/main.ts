@@ -1,5 +1,5 @@
 import {Render,Navigate} from '../vanilla'
-import Template from './Components/template/Template';
+import Template from './Components/template/Template.ts';
 import './styles/style.css'
 
 
