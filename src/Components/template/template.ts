@@ -1,6 +1,5 @@
-import { Navbar } from "./Navbar";
-import { Footer } from "./Footer";
-
+import {Navbar} from './Navbar.ts';
+import {Footer} from './Footer.ts';
 
 const Template = () : HTMLDivElement => {
     const div : HTMLDivElement = document.createElement("div");

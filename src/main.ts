@@ -1,6 +1,6 @@
 import {Render,Navigate} from '../vanilla'
-import Template from './components/template/template';
-import './style.css';
+import Template from './Components/template/Template';
+import './styles/style.css'
 
 
 document.addEventListener("DOMContentLoaded", () => {
