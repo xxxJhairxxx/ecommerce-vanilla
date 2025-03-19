@@ -1,1 +1,16 @@
 @import "tailwindcss";
+@layer theme;
+@import "./theme.css" layer(theme);
+
+html {
+    font-size: 62.5%; /* 62.5% de 16px = 10px */
+  }
+
+body{
+  @apply bg-gray-800 text-[1.6rem];
+}
+
+.Container{
+    @apply mx-auto w-full laptoplg:max-w-[140rem];
+}
+
