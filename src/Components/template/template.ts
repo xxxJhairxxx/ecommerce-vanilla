@@ -1,7 +1,7 @@
 import {Navbar} from './Navbar.ts';
 import {Footer} from './Footer.ts';
 
-const Template = () : HTMLDivElement => {
+export const Template = () : HTMLDivElement => {
     const div : HTMLDivElement = document.createElement("div");
     const main : HTMLElement = document.createElement("main");
     const children : HTMLDivElement = document.createElement("div")
@@ -13,6 +13,3 @@ const Template = () : HTMLDivElement => {
     div.appendChild(Footer())
     return div
 };
-
-
-export default Template
