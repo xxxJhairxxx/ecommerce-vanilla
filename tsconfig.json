@@ -20,5 +20,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": [ "**/*.ts","src/**/*.ts" ],
+  "include": [ "**/*.ts","src/**/*.ts", "src/Components/molecules/cardComponent.tss" ],
 }

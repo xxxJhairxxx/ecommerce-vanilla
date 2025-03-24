@@ -1,7 +1,7 @@
 import { IProduct } from './../../models/card.model.ts';
 
 import products from "../../services/products";
-import { CardComponent } from '../../Components/molecules/cardComponent';
+import { CardComponent } from '../../Components/molecules/cardComponent.ts';
 
 const HomeProducts = async(): Promise<HTMLElement> =>{
     const section = document.createElement("section");

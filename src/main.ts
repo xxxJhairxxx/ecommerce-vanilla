@@ -1,10 +1,12 @@
 import {Render,Navigate} from '../vanilla'
 import {Template} from './Components/template';
+
+import {registerCustomElements} from './Components/custom';
 import './styles/style.css'
 
 
 document.addEventListener("DOMContentLoaded", () => {
-
+  
   const app = document.getElementById('app');
   if (!app) {return console.error('no existe la #app')};
 
@@ -19,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
   
-
+  
   Render(window.location.pathname);
+  registerCustomElements();
 });

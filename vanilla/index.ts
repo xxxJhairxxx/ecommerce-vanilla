@@ -21,7 +21,6 @@ export const Render = async (path: string): Promise<void> => {
   };
   
 export const Navigate = (a :HTMLAnchorElement) => {
-  console.log(a)
     const path= new URL(a.href).pathname;
     window.history.pushState({}, path, window.location.origin + path);
     Render(path);

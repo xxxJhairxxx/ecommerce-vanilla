@@ -14,3 +14,6 @@ body{
     @apply mx-auto w-full laptoplg:max-w-[140rem];
 }
 
+.whatsapp{
+    @apply bg-green-600 text-white flex justify-center items-center rounded-full w-[8rem] h-[8rem] text-[1.6rem] font-bold cursor-pointer bottom-10 right-10 fixed;
+}
